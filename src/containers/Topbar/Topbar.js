@@ -31,7 +31,7 @@ class Topbar extends Component {
           className={
             collapsed ? 'isomorphicTopbar collapsed' : 'isomorphicTopbar'
           }>
-          <div className="isoLeft">
+          {/* <div className="isoLeft">
             <button
               className={
                 collapsed ? 'triggerBtn menuCollapsed' : 'triggerBtn menuOpen'
@@ -68,7 +68,7 @@ class Topbar extends Component {
               className="isoUser">
               <TopbarUser locale={locale} />
             </li>
-          </ul>
+          </ul> */}
         </Header>
       </TopbarWrapper>
     );
